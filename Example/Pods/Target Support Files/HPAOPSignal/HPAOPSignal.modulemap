@@ -1,0 +1,6 @@
+framework module HPAOPSignal {
+  umbrella header "HPAOPSignal-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HPAOPSignal",
+  "version": "0.1.0",
+  "summary": "A short description of HPAOPSignal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/surnamex@163.com/HPAOPSignal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "surnamex@163.com": "gdhapy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/surnamex@163.com/HPAOPSignal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HPAOPSignal/Classes/**/*"
+}
