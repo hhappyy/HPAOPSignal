@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HPAOPSignal_Example' do
+  pod 'HPAOPSignal', :path => '../'
+
+  target 'HPAOPSignal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
