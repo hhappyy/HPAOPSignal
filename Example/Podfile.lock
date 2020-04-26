@@ -1,6 +1,7 @@
 PODS:
   - Aspects (1.4.1)
-  - HPAOPSignal (0.1.0)
+  - HPAOPSignal (0.1.0):
+    - Aspects
 
 DEPENDENCIES:
   - Aspects
@@ -16,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  HPAOPSignal: 7beabf9a986c48eb05de3990e6c99f2101008ebd
+  HPAOPSignal: df018386fd9c35014388672be121a6a02a1b765d
 
 PODFILE CHECKSUM: 6feebeb54c5fb63c711e87c30c29fceaab9d7158
 

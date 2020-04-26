@@ -7,6 +7,7 @@
 //
 
 #import "HPViewController.h"
+#import "HPTestView.h"
 
 @interface HPViewController ()
 
@@ -18,6 +19,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    HPTestView *testView = [[HPTestView alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+    [self.view addSubview:testView];
+}
+
+- (void)btnClick:(id)sender {
+    NSLog(@"%@", sender);
 }
 
 - (void)didReceiveMemoryWarning

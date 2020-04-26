@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HPAOPSignal.h"
 
 FOUNDATION_EXPORT double HPAOPSignalVersionNumber;
 FOUNDATION_EXPORT const unsigned char HPAOPSignalVersionString[];

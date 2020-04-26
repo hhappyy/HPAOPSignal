@@ -7,12 +7,14 @@
 //
 
 #import "HPAppDelegate.h"
+#import "HPAOPSignal.h"
 
 @implementation HPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [HPAOPSignal track];
     return YES;
 }
 

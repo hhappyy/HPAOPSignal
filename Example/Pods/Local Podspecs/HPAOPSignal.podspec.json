@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HPAOPSignal/Classes/**/*"
+  "source_files": "HPAOPSignal/Classes/**/*",
+  "resource_bundles": {
+    "HPAOPSignal": [
+      "HPAOPSignal/Classes/*.*"
+    ]
+  },
+  "dependencies": {
+    "Aspects": [
+
+    ]
+  }
 }

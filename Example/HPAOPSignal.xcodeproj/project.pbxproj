@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A91FAEDDB7BB8D4893583333 /* Pods_HPAOPSignal_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8EAE460746A139C4D33B47 /* Pods_HPAOPSignal_Tests.framework */; };
+		F1721BB924547D8200CBC27F /* HPTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1721BB824547D8200CBC27F /* HPTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		322262CBA3E17AC52690603D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		322262CBA3E17AC52690603D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		43328F34DC1166DA5FC1BC81 /* Pods-HPAOPSignal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPAOPSignal_Example.release.xcconfig"; path = "Target Support Files/Pods-HPAOPSignal_Example/Pods-HPAOPSignal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E78D655A37DD1BCEAF2E089 /* Pods-HPAOPSignal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPAOPSignal_Tests.release.xcconfig"; path = "Target Support Files/Pods-HPAOPSignal_Tests/Pods-HPAOPSignal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A8EAE460746A139C4D33B47 /* Pods_HPAOPSignal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPAOPSignal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +64,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8415DE3F03D32BDBF6CFEDAE /* Pods-HPAOPSignal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPAOPSignal_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HPAOPSignal_Tests/Pods-HPAOPSignal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B8079C5332473268667076A5 /* HPAOPSignal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HPAOPSignal.podspec; path = ../HPAOPSignal.podspec; sourceTree = "<group>"; };
-		D10CAE19D56312031658E4C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8079C5332473268667076A5 /* HPAOPSignal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HPAOPSignal.podspec; path = ../HPAOPSignal.podspec; sourceTree = "<group>"; };
+		D10CAE19D56312031658E4C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ECA7104FABFD4D4EA36B6983 /* Pods-HPAOPSignal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPAOPSignal_Example.debug.xcconfig"; path = "Target Support Files/Pods-HPAOPSignal_Example/Pods-HPAOPSignal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EE706CDAED2F05688184F97E /* Pods_HPAOPSignal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPAOPSignal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1721BB724547D8200CBC27F /* HPTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPTestView.h; sourceTree = "<group>"; };
+		F1721BB824547D8200CBC27F /* HPTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				8415DE3F03D32BDBF6CFEDAE /* Pods-HPAOPSignal_Tests.debug.xcconfig */,
 				4E78D655A37DD1BCEAF2E089 /* Pods-HPAOPSignal_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HPViewController.h */,
 				6003F5A6195388D20070C39A /* HPViewController.m */,
+				F1721BB724547D8200CBC27F /* HPTestView.h */,
+				F1721BB824547D8200CBC27F /* HPTestView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -368,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* HPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HPViewController.m in Sources */,
+				F1721BB924547D8200CBC27F /* HPTestView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,8 +502,17 @@
 			baseConfigurationReference = ECA7104FABFD4D4EA36B6983 /* Pods-HPAOPSignal_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPAOPSignal/HPAOPSignal-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Headers/Aspects\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Headers/HPAOPSignal\"",
+				);
 				INFOPLIST_FILE = "HPAOPSignal/HPAOPSignal-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -512,8 +527,17 @@
 			baseConfigurationReference = 43328F34DC1166DA5FC1BC81 /* Pods-HPAOPSignal_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPAOPSignal/HPAOPSignal-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Headers/Aspects\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Headers/HPAOPSignal\"",
+				);
 				INFOPLIST_FILE = "HPAOPSignal/HPAOPSignal-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
