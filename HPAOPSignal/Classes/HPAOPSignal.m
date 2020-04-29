@@ -19,7 +19,7 @@
     NSDictionary *eventDic;
     if (bundleURL) {
         NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
-        NSString *path = [bundle pathForResource:@"HPAOPSignal" ofType:@"plist" inDirectory:@"HPAOPSignal.bundle"];
+        NSString *path = [bundle pathForResource:@"HPAOPSignal" ofType:@"plist"];
         eventDic = [NSDictionary dictionaryWithContentsOfFile:path];
     }
     if (eventDic) {

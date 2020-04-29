@@ -21,12 +21,11 @@
 		A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95256A292923C71DE3DC8210BB1573DE /* Aspects-dummy.m */; };
 		A97BD1CCE1EB19F19176DE7E05975F7F /* HPAOPSignal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EBC7B7BF27E416DFF39FB6DDFABD /* HPAOPSignal-dummy.m */; };
 		BFDDD2FFB13AA3143B8290EB7494EFC8 /* HPAOPSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F71411A94F60AA47FDFD74CD68FA0A4 /* HPAOPSignal.m */; };
-		C0BD379A469D9242E82ED75AE7EA7348 /* HPAOPSignal.m in Resources */ = {isa = PBXBuildFile; fileRef = 0F71411A94F60AA47FDFD74CD68FA0A4 /* HPAOPSignal.m */; };
 		C56DECBA7718D12D630A2A4ABDF16CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */; };
 		CB7AF6A5354B12DBD28F4062E7409F5E /* Pods-HPAOPSignal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0AD5F55EC8204BB1CFFB6A69E243B6 /* Pods-HPAOPSignal_Tests-dummy.m */; };
 		CC528F0369B912AA139726DF4977F3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */; };
 		D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD62DA6A02F916536F956E84ABC66DD /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1721BDE2454975B00CBC27F /* HPAOPSignal.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1721BDB24548CEB00CBC27F /* HPAOPSignal.plist */; };
+		F1721C1524590B2900CBC27F /* HPAOPSignal.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1721BDB24548CEB00CBC27F /* HPAOPSignal.plist */; };
 		F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC52A31AD0A1062C627E9AD9760C31 /* Aspects.m */; };
 /* End PBXBuildFile section */
 
@@ -519,8 +518,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E61ED09EABD676BF0A9C032A6F1F60 /* HPAOPSignal.h in Resources */,
-				F1721BDE2454975B00CBC27F /* HPAOPSignal.plist in Resources */,
-				C0BD379A469D9242E82ED75AE7EA7348 /* HPAOPSignal.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322FF9D396FF607F32D49C3CDF100295 /* HPAOPSignal.bundle in Resources */,
+				F1721C1524590B2900CBC27F /* HPAOPSignal.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
